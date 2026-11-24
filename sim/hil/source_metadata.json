@@ -1,0 +1,31 @@
+{
+  "sources": [
+    {
+      "spice_name": "v_sense_n5v",
+      "kicad_net": "5V",
+      "kind": "power_rail",
+      "ref": "U3",
+      "reg_type": "buck",
+      "vout": 5.0,
+      "input_net": "+BATT"
+    },
+    {
+      "spice_name": "v_sense_n12v",
+      "kicad_net": "12V",
+      "kind": "power_rail",
+      "ref": "U5",
+      "reg_type": "buck",
+      "vout": 12.0,
+      "input_net": "+BATT"
+    },
+    {
+      "spice_name": "v_sense_n3v3",
+      "kicad_net": "3V3",
+      "kind": "power_rail",
+      "ref": "U9",
+      "reg_type": "ldo",
+      "vout": 3.3,
+      "input_net": "5V"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "scenarios": [
+    { "name": "3s_full",    "description": "3S at 12.60 V (4.20 V/cell)",
+      "overrides": {"+BATT": 12.60},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "3s_nominal", "description": "3S at 11.10 V (3.70 V/cell)",
+      "overrides": {"+BATT": 11.10},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "3s_cutoff",  "description": "3S at 9.00 V (3.00 V/cell)",
+      "overrides": {"+BATT": 9.00},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+
+    { "name": "4s_full",    "description": "4S at 16.80 V (4.20 V/cell)",
+      "overrides": {"+BATT": 16.80},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "4s_nominal", "description": "4S at 14.80 V (3.70 V/cell)",
+      "overrides": {"+BATT": 14.80},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "4s_cutoff",  "description": "4S at 12.00 V (3.00 V/cell)",
+      "overrides": {"+BATT": 12.00},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+
+    { "name": "5s_full",    "description": "5S at 21.00 V (4.20 V/cell)",
+      "overrides": {"+BATT": 21.00},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "5s_nominal", "description": "5S at 18.50 V (3.70 V/cell)",
+      "overrides": {"+BATT": 18.50},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "5s_cutoff",  "description": "5S at 15.00 V (3.00 V/cell)",
+      "overrides": {"+BATT": 15.00},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+
+    { "name": "6s_full",    "description": "6S at 25.20 V (4.20 V/cell)",
+      "overrides": {"+BATT": 25.20},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "6s_nominal", "description": "6S at 22.20 V (3.70 V/cell)",
+      "overrides": {"+BATT": 22.20},
+      "probes": ["+BATT", "12V", "5V", "3V3"] },
+    { "name": "6s_cutoff",  "description": "6S at 18.00 V (3.00 V/cell)",
+      "overrides": {"+BATT": 18.00},
+      "probes": ["+BATT", "12V", "5V", "3V3"] }
+  ]
+}

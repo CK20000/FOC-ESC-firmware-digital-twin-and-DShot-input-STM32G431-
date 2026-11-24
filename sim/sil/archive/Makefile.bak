@@ -1,0 +1,11 @@
+CC := gcc
+CFLAGS := -DHOST_BUILD -shared -fPIC -O2 -Wall -I../../Inc -I.
+LIBS := -lm
+SRCS := virtual_stm32.c ../../Src/foc_core.c ../../Src/foc_dshot.c
+OUT := foc_sim.so
+
+all: $(OUT)
+$(OUT): $(SRCS) virtual_stm32.h ../../Inc/foc_core.h ../../Inc/foc_dshot.h
+	$(CC) $(CFLAGS) $(SRCS) $(LIBS) -o $(OUT)
+clean:
+	rm -f $(OUT)

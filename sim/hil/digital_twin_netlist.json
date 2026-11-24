@@ -1,0 +1,1978 @@
+{
+    "Net-(U4-IN+)": {
+        "nodes": [
+            {
+                "component": "C24",
+                "value": "1nF",
+                "pin": "1"
+            },
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "8"
+            },
+            {
+                "component": "R18",
+                "value": "10",
+                "pin": "2"
+            },
+            {
+                "component": "C29",
+                "value": "10nF",
+                "pin": "2"
+            }
+        ]
+    },
+    "GND": {
+        "nodes": [
+            {
+                "component": "C24",
+                "value": "1nF",
+                "pin": "2"
+            },
+            {
+                "component": "TP12",
+                "value": "GND",
+                "pin": "1"
+            },
+            {
+                "component": "C8",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "C15",
+                "value": "100u",
+                "pin": "2"
+            },
+            {
+                "component": "R27",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "C31",
+                "value": "10u",
+                "pin": "2"
+            },
+            {
+                "component": "C34",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "C25",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "TP17",
+                "value": "B-",
+                "pin": "1"
+            },
+            {
+                "component": "C3",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C27",
+                "value": "1u",
+                "pin": "2"
+            },
+            {
+                "component": "Q4",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "Q12",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "2"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "4"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "5"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "6"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "7"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "8"
+            },
+            {
+                "component": "C2",
+                "value": "10u",
+                "pin": "2"
+            },
+            {
+                "component": "C39",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "R31",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "C16",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "D17",
+                "value": "SS34",
+                "pin": "2"
+            },
+            {
+                "component": "U9",
+                "value": "ME6211C33M5",
+                "pin": "2"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "19"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "23"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "35"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "47"
+            },
+            {
+                "component": "C1",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "C17",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C5",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "R29",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "C26",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C19",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C28",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "C35",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "TP5",
+                "value": "B-",
+                "pin": "1"
+            },
+            {
+                "component": "TP13",
+                "value": "GND",
+                "pin": "1"
+            },
+            {
+                "component": "Q8",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "C33",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "C30",
+                "value": "1nF",
+                "pin": "2"
+            },
+            {
+                "component": "R21",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "TP15",
+                "value": "B-",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "8"
+            },
+            {
+                "component": "C23",
+                "value": "1nF",
+                "pin": "2"
+            },
+            {
+                "component": "C32",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "C14",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C7",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C37",
+                "value": "2.2n",
+                "pin": "2"
+            },
+            {
+                "component": "R25",
+                "value": "1k",
+                "pin": "2"
+            },
+            {
+                "component": "C10",
+                "value": "100u",
+                "pin": "2"
+            },
+            {
+                "component": "C20",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "R6",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "4"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "5"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "6"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "7"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "8"
+            },
+            {
+                "component": "Q10",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "Q2",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "4"
+            },
+            {
+                "component": "C9",
+                "value": "22u",
+                "pin": "2"
+            },
+            {
+                "component": "C36",
+                "value": "2.2n",
+                "pin": "2"
+            },
+            {
+                "component": "C21",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "D1",
+                "value": "SS34",
+                "pin": "2"
+            },
+            {
+                "component": "C38",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "C4",
+                "value": "0.1u",
+                "pin": "2"
+            },
+            {
+                "component": "C13",
+                "value": "1u",
+                "pin": "1"
+            },
+            {
+                "component": "Q6",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "C18",
+                "value": "1nF",
+                "pin": "2"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(Q3-G)": {
+        "nodes": [
+            {
+                "component": "Q3",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R2",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "+BATT": {
+        "nodes": [
+            {
+                "component": "Q3",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "C8",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "C34",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "TP4",
+                "value": "B+",
+                "pin": "1"
+            },
+            {
+                "component": "Q7",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "Q11",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "R24",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "1"
+            },
+            {
+                "component": "C5",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "C33",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "C32",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "C14",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "C7",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "Q1",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "TP16",
+                "value": "B+",
+                "pin": "1"
+            },
+            {
+                "component": "Q9",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "1"
+            },
+            {
+                "component": "C9",
+                "value": "22u",
+                "pin": "1"
+            },
+            {
+                "component": "TP18",
+                "value": "B+",
+                "pin": "1"
+            },
+            {
+                "component": "Q5",
+                "value": "QM6006D",
+                "pin": "2"
+            }
+        ]
+    },
+    "/current sensing/U": {
+        "nodes": [
+            {
+                "component": "Q3",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "Q4",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "R26",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "18"
+            },
+            {
+                "component": "R14",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "Q1",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "C6",
+                "value": "1u",
+                "pin": "2"
+            },
+            {
+                "component": "Q2",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "R22",
+                "value": "2m",
+                "pin": "1"
+            }
+        ]
+    },
+    "/current sensing/Tv": {
+        "nodes": [
+            {
+                "component": "TP3",
+                "value": "W",
+                "pin": "1"
+            },
+            {
+                "component": "Q7",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "R28",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "Q8",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "15"
+            },
+            {
+                "component": "C11",
+                "value": "1u",
+                "pin": "1"
+            },
+            {
+                "component": "Q6",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "Q5",
+                "value": "QM6006D",
+                "pin": "3"
+            }
+        ]
+    },
+    "5V": {
+        "nodes": [
+            {
+                "component": "C15",
+                "value": "100u",
+                "pin": "1"
+            },
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "3"
+            },
+            {
+                "component": "C2",
+                "value": "10u",
+                "pin": "1"
+            },
+            {
+                "component": "U9",
+                "value": "ME6211C33M5",
+                "pin": "1"
+            },
+            {
+                "component": "U9",
+                "value": "ME6211C33M5",
+                "pin": "3"
+            },
+            {
+                "component": "TP11",
+                "value": "5V",
+                "pin": "1"
+            },
+            {
+                "component": "L2",
+                "value": "68u",
+                "pin": "2"
+            }
+        ]
+    },
+    "LO1": {
+        "nodes": [
+            {
+                "component": "R27",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "11"
+            },
+            {
+                "component": "R4",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R3",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "SDA": {
+        "nodes": [
+            {
+                "component": "TP9",
+                "value": "SDA",
+                "pin": "1"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "44"
+            },
+            {
+                "component": "R32",
+                "value": "4.7k",
+                "pin": "1"
+            }
+        ]
+    },
+    "3V3": {
+        "nodes": [
+            {
+                "component": "C31",
+                "value": "10u",
+                "pin": "1"
+            },
+            {
+                "component": "C3",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "R33",
+                "value": "4.7k",
+                "pin": "2"
+            },
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "6"
+            },
+            {
+                "component": "U9",
+                "value": "ME6211C33M5",
+                "pin": "5"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "1"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "24"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "36"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "48"
+            },
+            {
+                "component": "C17",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "C19",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "FB1",
+                "value": "FerriteBead_Small",
+                "pin": "2"
+            },
+            {
+                "component": "C28",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "TP14",
+                "value": "3V3",
+                "pin": "1"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "8"
+            },
+            {
+                "component": "C21",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "R32",
+                "value": "4.7k",
+                "pin": "2"
+            },
+            {
+                "component": "R5",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "6"
+            }
+        ]
+    },
+    "HO3": {
+        "nodes": [
+            {
+                "component": "R30",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "13"
+            },
+            {
+                "component": "R12",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R11",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "/current sensing/W": {
+        "nodes": [
+            {
+                "component": "R30",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "R23",
+                "value": "2m",
+                "pin": "1"
+            },
+            {
+                "component": "Q11",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "Q12",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "R18",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "12"
+            },
+            {
+                "component": "Q9",
+                "value": "QM6006D",
+                "pin": "3"
+            },
+            {
+                "component": "Q10",
+                "value": "QM6006D",
+                "pin": "2"
+            },
+            {
+                "component": "C12",
+                "value": "1u",
+                "pin": "1"
+            }
+        ]
+    },
+    "/current sensing/1.65V": {
+        "nodes": [
+            {
+                "component": "C25",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "3"
+            },
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "7"
+            },
+            {
+                "component": "C39",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "C20",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "6"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "7"
+            },
+            {
+                "component": "C38",
+                "value": "100nF",
+                "pin": "1"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "3"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "7"
+            }
+        ]
+    },
+    "Net-(Q7-G)": {
+        "nodes": [
+            {
+                "component": "Q7",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R8",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "HO2": {
+        "nodes": [
+            {
+                "component": "R28",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "16"
+            },
+            {
+                "component": "R7",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R8",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "/current sensing/Tw": {
+        "nodes": [
+            {
+                "component": "R23",
+                "value": "2m",
+                "pin": "2"
+            },
+            {
+                "component": "TP2",
+                "value": "V",
+                "pin": "1"
+            },
+            {
+                "component": "R20",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "SCL": {
+        "nodes": [
+            {
+                "component": "TP8",
+                "value": "SCL",
+                "pin": "1"
+            },
+            {
+                "component": "R33",
+                "value": "4.7k",
+                "pin": "1"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "43"
+            }
+        ]
+    },
+    "Net-(U2-VDDA)": {
+        "nodes": [
+            {
+                "component": "C27",
+                "value": "1u",
+                "pin": "1"
+            },
+            {
+                "component": "C16",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "20"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "21"
+            },
+            {
+                "component": "C26",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "FB1",
+                "value": "FerriteBead_Small",
+                "pin": "1"
+            }
+        ]
+    },
+    "SWCLK": {
+        "nodes": [
+            {
+                "component": "TP6",
+                "value": "SWCLK",
+                "pin": "1"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "38"
+            }
+        ]
+    },
+    "Net-(Q11-G)": {
+        "nodes": [
+            {
+                "component": "Q11",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R12",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(Q4-G)": {
+        "nodes": [
+            {
+                "component": "Q4",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R4",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "ADC3": {
+        "nodes": [
+            {
+                "component": "R24",
+                "value": "10k",
+                "pin": "2"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "26"
+            },
+            {
+                "component": "C1",
+                "value": "100nF",
+                "pin": "2"
+            },
+            {
+                "component": "R25",
+                "value": "1k",
+                "pin": "1"
+            }
+        ]
+    },
+    "/current sensing/Tu": {
+        "nodes": [
+            {
+                "component": "TP1",
+                "value": "U",
+                "pin": "1"
+            },
+            {
+                "component": "R17",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R22",
+                "value": "2m",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(Q12-G)": {
+        "nodes": [
+            {
+                "component": "Q12",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R15",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U4-IN-)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "1"
+            },
+            {
+                "component": "C30",
+                "value": "1nF",
+                "pin": "1"
+            },
+            {
+                "component": "R20",
+                "value": "10",
+                "pin": "2"
+            },
+            {
+                "component": "C29",
+                "value": "10nF",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U4-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "4"
+            }
+        ]
+    },
+    "ADC2": {
+        "nodes": [
+            {
+                "component": "U4",
+                "value": "AD8418",
+                "pin": "5"
+            },
+            {
+                "component": "R19",
+                "value": "100",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D17-K)": {
+        "nodes": [
+            {
+                "component": "U3",
+                "value": "XL1509-5.0",
+                "pin": "2"
+            },
+            {
+                "component": "D17",
+                "value": "SS34",
+                "pin": "1"
+            },
+            {
+                "component": "L2",
+                "value": "68u",
+                "pin": "1"
+            }
+        ]
+    },
+    "DSHOT": {
+        "nodes": [
+            {
+                "component": "TP10",
+                "value": "DSHOT",
+                "pin": "1"
+            },
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "8"
+            }
+        ]
+    },
+    "LO3": {
+        "nodes": [
+            {
+                "component": "R31",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "9"
+            },
+            {
+                "component": "R13",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R15",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "HO1": {
+        "nodes": [
+            {
+                "component": "R26",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "19"
+            },
+            {
+                "component": "R1",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R2",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U9-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U9",
+                "value": "ME6211C33M5",
+                "pin": "4"
+            }
+        ]
+    },
+    "unconnected-(U2-PC13-Pad2)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "2"
+            }
+        ]
+    },
+    "unconnected-(U2-PC14-Pad3)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "3"
+            }
+        ]
+    },
+    "unconnected-(U2-PC15-Pad4)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "4"
+            }
+        ]
+    },
+    "unconnected-(U2-PF0-Pad5)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "5"
+            }
+        ]
+    },
+    "unconnected-(U2-PF1-Pad6)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "6"
+            }
+        ]
+    },
+    "Net-(U2-PG10)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "7"
+            },
+            {
+                "component": "C35",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "TP19",
+                "value": "NRST",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U2-PA1)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "9"
+            },
+            {
+                "component": "C36",
+                "value": "2.2n",
+                "pin": "1"
+            },
+            {
+                "component": "R16",
+                "value": "100",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U2-PA2-Pad10)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "10"
+            }
+        ]
+    },
+    "unconnected-(U2-PA3-Pad11)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "11"
+            }
+        ]
+    },
+    "unconnected-(U2-PA4-Pad12)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "12"
+            }
+        ]
+    },
+    "unconnected-(U2-PA5-Pad13)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "13"
+            }
+        ]
+    },
+    "unconnected-(U2-PA6-Pad14)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "14"
+            }
+        ]
+    },
+    "Net-(U2-PA7)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "15"
+            },
+            {
+                "component": "R19",
+                "value": "100",
+                "pin": "1"
+            },
+            {
+                "component": "C37",
+                "value": "2.2n",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U2-PB0-Pad16)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "16"
+            }
+        ]
+    },
+    "unconnected-(U2-PB1-Pad17)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "17"
+            }
+        ]
+    },
+    "unconnected-(U2-PB2-Pad18)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "18"
+            }
+        ]
+    },
+    "unconnected-(U2-PB10-Pad22)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "22"
+            }
+        ]
+    },
+    "unconnected-(U2-PB11-Pad25)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "25"
+            }
+        ]
+    },
+    "UL": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "27"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "4"
+            }
+        ]
+    },
+    "VL": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "28"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "5"
+            }
+        ]
+    },
+    "WL": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "29"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "6"
+            }
+        ]
+    },
+    "UH": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "30"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "1"
+            }
+        ]
+    },
+    "VH": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "31"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "2"
+            }
+        ]
+    },
+    "WH": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "32"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "3"
+            }
+        ]
+    },
+    "unconnected-(U2-PA11-Pad33)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "33"
+            }
+        ]
+    },
+    "unconnected-(U2-PA12-Pad34)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "34"
+            }
+        ]
+    },
+    "SWDIO": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "37"
+            },
+            {
+                "component": "TP7",
+                "value": "SWDIO",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U2-PA15-Pad39)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "39"
+            }
+        ]
+    },
+    "unconnected-(U2-PB3-Pad40)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "40"
+            }
+        ]
+    },
+    "unconnected-(U2-PB4-Pad41)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "41"
+            }
+        ]
+    },
+    "unconnected-(U2-PB5-Pad42)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "42"
+            }
+        ]
+    },
+    "Net-(U2-PB8)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "45"
+            },
+            {
+                "component": "R21",
+                "value": "10k",
+                "pin": "1"
+            }
+        ]
+    },
+    "unconnected-(U2-PB9-Pad46)": {
+        "nodes": [
+            {
+                "component": "U2",
+                "value": "STM32G431CBTx",
+                "pin": "46"
+            }
+        ]
+    },
+    "LO2": {
+        "nodes": [
+            {
+                "component": "R29",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "10"
+            },
+            {
+                "component": "R10",
+                "value": "10",
+                "pin": "1"
+            },
+            {
+                "component": "R9",
+                "value": "10",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U1-IN-)": {
+        "nodes": [
+            {
+                "component": "C22",
+                "value": "10nF",
+                "pin": "1"
+            },
+            {
+                "component": "C23",
+                "value": "1nF",
+                "pin": "1"
+            },
+            {
+                "component": "R17",
+                "value": "10",
+                "pin": "2"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(U1-IN+)": {
+        "nodes": [
+            {
+                "component": "C22",
+                "value": "10nF",
+                "pin": "2"
+            },
+            {
+                "component": "R14",
+                "value": "10",
+                "pin": "2"
+            },
+            {
+                "component": "C18",
+                "value": "1nF",
+                "pin": "1"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "8"
+            }
+        ]
+    },
+    "Net-(Q8-G)": {
+        "nodes": [
+            {
+                "component": "Q8",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R10",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "12V": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "7"
+            },
+            {
+                "component": "D3",
+                "value": "SS16",
+                "pin": "2"
+            },
+            {
+                "component": "L1",
+                "value": "68u",
+                "pin": "2"
+            },
+            {
+                "component": "C10",
+                "value": "100u",
+                "pin": "1"
+            },
+            {
+                "component": "D2",
+                "value": "SS16",
+                "pin": "2"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "3"
+            },
+            {
+                "component": "D4",
+                "value": "SS16",
+                "pin": "2"
+            },
+            {
+                "component": "C4",
+                "value": "0.1u",
+                "pin": "1"
+            },
+            {
+                "component": "C13",
+                "value": "1u",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D4-K)": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "14"
+            },
+            {
+                "component": "D4",
+                "value": "SS16",
+                "pin": "1"
+            },
+            {
+                "component": "C12",
+                "value": "1u",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D3-K)": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "17"
+            },
+            {
+                "component": "D3",
+                "value": "SS16",
+                "pin": "1"
+            },
+            {
+                "component": "C11",
+                "value": "1u",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D2-K)": {
+        "nodes": [
+            {
+                "component": "U8",
+                "value": "EG2134",
+                "pin": "20"
+            },
+            {
+                "component": "D2",
+                "value": "SS16",
+                "pin": "1"
+            },
+            {
+                "component": "C6",
+                "value": "1u",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(Q1-G)": {
+        "nodes": [
+            {
+                "component": "Q1",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R1",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(D1-K)": {
+        "nodes": [
+            {
+                "component": "L1",
+                "value": "68u",
+                "pin": "1"
+            },
+            {
+                "component": "U5",
+                "value": "XL1509-12",
+                "pin": "2"
+            },
+            {
+                "component": "D1",
+                "value": "SS34",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(Q9-G)": {
+        "nodes": [
+            {
+                "component": "Q9",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R11",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U6A-+)": {
+        "nodes": [
+            {
+                "component": "R6",
+                "value": "10k",
+                "pin": "1"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "3"
+            },
+            {
+                "component": "R5",
+                "value": "10k",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(Q10-G)": {
+        "nodes": [
+            {
+                "component": "Q10",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R13",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(Q2-G)": {
+        "nodes": [
+            {
+                "component": "Q2",
+                "value": "QM6006D",
+                "pin": "1"
+            },
+            {
+                "component": "R3",
+                "value": "10",
+                "pin": "2"
+            }
+        ]
+    },
+    "Net-(U6A--)": {
+        "nodes": [
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "1"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "2"
+            },
+            {
+                "component": "U6",
+                "value": "OPA2333xxD",
+                "pin": "5"
+            }
+        ]
+    },
+    "Net-(Q5-G)": {
+        "nodes": [
+            {
+                "component": "R7",
+                "value": "10",
+                "pin": "2"
+            },
+            {
+                "component": "Q5",
+                "value": "QM6006D",
+                "pin": "1"
+            }
+        ]
+    },
+    "Net-(Q6-G)": {
+        "nodes": [
+            {
+                "component": "R9",
+                "value": "10",
+                "pin": "2"
+            },
+            {
+                "component": "Q6",
+                "value": "QM6006D",
+                "pin": "1"
+            }
+        ]
+    },
+    "ADC1": {
+        "nodes": [
+            {
+                "component": "R16",
+                "value": "100",
+                "pin": "2"
+            },
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "5"
+            }
+        ]
+    },
+    "unconnected-(U1-NC-Pad4)": {
+        "nodes": [
+            {
+                "component": "U1",
+                "value": "AD8418",
+                "pin": "4"
+            }
+        ]
+    }
+}

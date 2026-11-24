@@ -1,0 +1,217 @@
+* =================================================
+* AUTO-GENERATED SPICE NETLIST (DC op-point)
+* Source: FOC ESC schematic
+* =================================================
+
+.include foc_models.lib
+
+* CC1 skipped (open in DC)
+* CC13 skipped (open in DC)
+* CC14 skipped (open in DC)
+* CC32 skipped (open in DC)
+* CC33 skipped (open in DC)
+* CC34 skipped (open in DC)
+* CC5 skipped (open in DC)
+* CC7 skipped (open in DC)
+* CC8 skipped (open in DC)
+* CC9 skipped (open in DC)
+* Q1 (mosfet_n) — power-stage part, skipped for DC
+* Q11 (mosfet_n) — power-stage part, skipped for DC
+* Q3 (mosfet_n) — power-stage part, skipped for DC
+* Q5 (mosfet_n) — power-stage part, skipped for DC
+* Q7 (mosfet_n) — power-stage part, skipped for DC
+* Q9 (mosfet_n) — power-stage part, skipped for DC
+* TP4 (test_point) — skipped in DC
+* U3 (buck) — replaced by ideal rail source
+* U5 (buck) — replaced by ideal rail source
+* CC20 skipped (open in DC)
+* CC25 skipped (open in DC)
+* U1 (current_sense_amp) — power-stage part, skipped for DC
+* U4 (current_sense_amp) — power-stage part, skipped for DC
+* U6 (opamp) — power-stage part, skipped for DC
+RR17 _current_sensing_Tu Net__U1_IN__ 10.000000
+* TP1 (test_point) — skipped in DC
+RR20 _current_sensing_Tw Net__U4_IN__ 10.000000
+* TP2 (test_point) — skipped in DC
+* CC6 skipped (open in DC)
+* Q2 (mosfet_n) — power-stage part, skipped for DC
+* Q4 (mosfet_n) — power-stage part, skipped for DC
+RR14 _current_sensing_U Net__U1_IN__ 10.000000
+* U8 (gate_driver) — power-stage part, skipped for DC
+* CC12 skipped (open in DC)
+* Q10 (mosfet_n) — power-stage part, skipped for DC
+* Q12 (mosfet_n) — power-stage part, skipped for DC
+RR18 _current_sensing_W Net__U4_IN__ 10.000000
+* CC11 skipped (open in DC)
+* Q6 (mosfet_n) — power-stage part, skipped for DC
+* Q8 (mosfet_n) — power-stage part, skipped for DC
+* TP3 (test_point) — skipped in DC
+* CC16 skipped (open in DC)
+* CC17 skipped (open in DC)
+* CC19 skipped (open in DC)
+* CC21 skipped (open in DC)
+* CC26 skipped (open in DC)
+* CC27 skipped (open in DC)
+* CC28 skipped (open in DC)
+* CC3 skipped (open in DC)
+* CC31 skipped (open in DC)
+* FB1 (ferrite_bead) — skipped in DC
+RR5 N3V3 Net__U6A___ 10000.000000
+* TP14 (test_point) — skipped in DC
+* U2 (mcu) — skipped in DC
+* U9 (ldo) — replaced by ideal rail source
+* CC15 skipped (open in DC)
+* CC2 skipped (open in DC)
+LL2 N5V Net__D17_K_ 1u
+* TP11 (test_point) — skipped in DC
+* CC10 skipped (open in DC)
+* CC4 skipped (open in DC)
+* D2 (schottky) — power-stage part, skipped for DC
+* D3 (schottky) — power-stage part, skipped for DC
+* D4 (schottky) — power-stage part, skipped for DC
+LL1 N12V Net__D1_K_ 1u
+RR16 ADC1 Net__U2_PA1_ 100.000000
+RR19 ADC2 Net__U2_PA7_ 100.000000
+* TP10 (test_point) — skipped in DC
+* CC18 skipped (open in DC)
+* CC23 skipped (open in DC)
+* CC24 skipped (open in DC)
+* CC30 skipped (open in DC)
+* CC35 skipped (open in DC)
+* CC36 skipped (open in DC)
+* CC37 skipped (open in DC)
+* D1 (schottky) — power-stage part, skipped for DC
+* D17 (schottky) — power-stage part, skipped for DC
+RR21 0 Net__U2_PB8_ 10000.000000
+RR6 0 Net__U6A___ 10000.000000
+* TP12 (test_point) — skipped in DC
+* TP13 (test_point) — skipped in DC
+* TP5 (test_point) — skipped in DC
+RR1 HO1 Net__Q1_G_ 10.000000
+RR2 HO1 Net__Q3_G_ 10.000000
+RR7 HO2 Net__Q5_G_ 10.000000
+RR8 HO2 Net__Q7_G_ 10.000000
+RR11 HO3 Net__Q9_G_ 10.000000
+RR12 HO3 Net__Q11_G_ 10.000000
+RR3 LO1 Net__Q2_G_ 10.000000
+RR4 LO1 Net__Q4_G_ 10.000000
+RR10 LO2 Net__Q8_G_ 10.000000
+RR9 LO2 Net__Q6_G_ 10.000000
+RR13 LO3 Net__Q10_G_ 10.000000
+RR15 LO3 Net__Q12_G_ 10.000000
+* CC22 skipped (open in DC)
+* CC29 skipped (open in DC)
+* TP8 (test_point) — skipped in DC
+* TP9 (test_point) — skipped in DC
+* TP6 (test_point) — skipped in DC
+* TP7 (test_point) — skipped in DC
+
+* === Rails (dropout-limited behavioral sources) ===
+* 5V <- U3 (buck, 5.00 V, dropout 1.50 V from +BATT)
+B_rail_N5V N5V_SRC 0 V = min(5.000000, V(_BATT) - 1.500000)
+V_sense_N5V N5V_SRC N5V_SENSE DC 0
+R_rail_N5V N5V_SENSE N5V 0.05
+I_load_N5V N5V 0 DC 0.065000
+* 12V <- U5 (buck, 12.00 V, dropout 1.50 V from +BATT)
+B_rail_N12V N12V_SRC 0 V = min(12.000000, V(_BATT) - 1.500000)
+V_sense_N12V N12V_SRC N12V_SENSE DC 0
+R_rail_N12V N12V_SENSE N12V 0.05
+I_load_N12V N12V 0 DC 0.015000
+* 3V3 <- U9 (ldo, 3.30 V, dropout 0.30 V from 5V)
+B_rail_N3V3 N3V3_SRC 0 V = min(3.300000, V(N5V) - 0.300000)
+V_sense_N3V3 N3V3_SRC N3V3_SENSE DC 0
+R_rail_N3V3 N3V3_SENSE N3V3 0.05
+I_load_N3V3 N3V3 0 DC 0.063000
+
+* === Anti-floating resistors (1 MΩ) ===
+R_leak_0 _BATT 0 1Meg
+R_leak_1 _current_sensing_1_65V 0 1Meg
+R_leak_2 _current_sensing_Tu 0 1Meg
+R_leak_3 _current_sensing_Tw 0 1Meg
+R_leak_4 _current_sensing_U 0 1Meg
+R_leak_5 _current_sensing_W 0 1Meg
+R_leak_6 _inverter_V 0 1Meg
+R_leak_7 N12V 0 1Meg
+R_leak_8 N3V3 0 1Meg
+R_leak_9 N5V 0 1Meg
+R_leak_10 ADC1 0 1Meg
+R_leak_11 ADC2 0 1Meg
+R_leak_12 DSHOT 0 1Meg
+R_leak_14 HO1 0 1Meg
+R_leak_15 HO2 0 1Meg
+R_leak_16 HO3 0 1Meg
+R_leak_17 LO1 0 1Meg
+R_leak_18 LO2 0 1Meg
+R_leak_19 LO3 0 1Meg
+R_leak_20 Net__D1_K_ 0 1Meg
+R_leak_21 Net__D17_K_ 0 1Meg
+R_leak_22 Net__D2_K_ 0 1Meg
+R_leak_23 Net__D3_K_ 0 1Meg
+R_leak_24 Net__D4_K_ 0 1Meg
+R_leak_25 Net__Q1_G_ 0 1Meg
+R_leak_26 Net__Q10_G_ 0 1Meg
+R_leak_27 Net__Q11_G_ 0 1Meg
+R_leak_28 Net__Q12_G_ 0 1Meg
+R_leak_29 Net__Q2_G_ 0 1Meg
+R_leak_30 Net__Q3_G_ 0 1Meg
+R_leak_31 Net__Q4_G_ 0 1Meg
+R_leak_32 Net__Q5_G_ 0 1Meg
+R_leak_33 Net__Q6_G_ 0 1Meg
+R_leak_34 Net__Q7_G_ 0 1Meg
+R_leak_35 Net__Q8_G_ 0 1Meg
+R_leak_36 Net__Q9_G_ 0 1Meg
+R_leak_37 Net__U1_IN__ 0 1Meg
+R_leak_38 Net__U1_IN__ 0 1Meg
+R_leak_39 Net__U2_PA1_ 0 1Meg
+R_leak_40 Net__U2_PA7_ 0 1Meg
+R_leak_41 Net__U2_PB8_ 0 1Meg
+R_leak_42 Net__U2_PG10_ 0 1Meg
+R_leak_43 Net__U2_VDDA_ 0 1Meg
+R_leak_44 Net__U4_IN__ 0 1Meg
+R_leak_45 Net__U4_IN__ 0 1Meg
+R_leak_46 Net__U6A___ 0 1Meg
+R_leak_47 SCL 0 1Meg
+R_leak_48 SDA 0 1Meg
+R_leak_49 SWCLK 0 1Meg
+R_leak_50 SWDIO 0 1Meg
+R_leak_51 UH 0 1Meg
+R_leak_52 UL 0 1Meg
+R_leak_53 VH 0 1Meg
+R_leak_54 VL 0 1Meg
+R_leak_55 WH 0 1Meg
+R_leak_56 WL 0 1Meg
+R_leak_57 unconnected__D2_NC_Pad2_ 0 1Meg
+R_leak_58 unconnected__D3_NC_Pad2_ 0 1Meg
+R_leak_59 unconnected__D4_NC_Pad2_ 0 1Meg
+R_leak_60 unconnected__U1_NC_Pad4_ 0 1Meg
+R_leak_61 unconnected__U2_PA11_Pad33_ 0 1Meg
+R_leak_62 unconnected__U2_PA12_Pad34_ 0 1Meg
+R_leak_63 unconnected__U2_PA15_Pad39_ 0 1Meg
+R_leak_64 unconnected__U2_PA2_Pad10_ 0 1Meg
+R_leak_65 unconnected__U2_PA3_Pad11_ 0 1Meg
+R_leak_66 unconnected__U2_PA4_Pad12_ 0 1Meg
+R_leak_67 unconnected__U2_PA5_Pad13_ 0 1Meg
+R_leak_68 unconnected__U2_PA6_Pad14_ 0 1Meg
+R_leak_69 unconnected__U2_PB0_Pad16_ 0 1Meg
+R_leak_70 unconnected__U2_PB1_Pad17_ 0 1Meg
+R_leak_71 unconnected__U2_PB10_Pad22_ 0 1Meg
+R_leak_72 unconnected__U2_PB11_Pad25_ 0 1Meg
+R_leak_73 unconnected__U2_PB12_Pad26_ 0 1Meg
+R_leak_74 unconnected__U2_PB2_Pad18_ 0 1Meg
+R_leak_75 unconnected__U2_PB3_Pad40_ 0 1Meg
+R_leak_76 unconnected__U2_PB4_Pad41_ 0 1Meg
+R_leak_77 unconnected__U2_PB5_Pad42_ 0 1Meg
+R_leak_78 unconnected__U2_PB9_Pad46_ 0 1Meg
+R_leak_79 unconnected__U2_PC13_Pad2_ 0 1Meg
+R_leak_80 unconnected__U2_PC14_Pad3_ 0 1Meg
+R_leak_81 unconnected__U2_PC15_Pad4_ 0 1Meg
+R_leak_82 unconnected__U2_PF0_Pad5_ 0 1Meg
+R_leak_83 unconnected__U2_PF1_Pad6_ 0 1Meg
+R_leak_84 unconnected__U4_NC_Pad4_ 0 1Meg
+R_leak_85 unconnected__U9_NC_Pad4_ 0 1Meg
+
+* === Device models (generic) ===
+.model DIODEMOD D(Is=1e-14 N=1.05 Rs=0.5)
+
+.op
+.end

@@ -1,0 +1,67 @@
+TARGET = foc_g431
+BUILD_DIR = build
+
+# Toolchain
+PREFIX = arm-none-eabi-
+CC = $(PREFIX)gcc
+AS = $(PREFIX)gcc -x assembler-with-cpp
+CP = $(PREFIX)objcopy
+SZ = $(PREFIX)size
+
+# MCU Flags (Cortex-M4 with Hardware FPU)
+MCU = -mcpu=cortex-m4 -mthumb -mfpu=fpv4-sp-d16 -mfloat-abi=hard
+
+# Compilation Flags
+C_DEFS = -DUSE_HAL_DRIVER -DSTM32G431xx
+C_INCLUDES = \
+-IInc \
+-ISTM32CubeG4/Projects/NUCLEO-G431KB/Templates/Inc \
+-ISTM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Inc \
+-ISTM32CubeG4/Drivers/CMSIS/Device/ST/STM32G4xx/Include \
+-ISTM32CubeG4/Drivers/CMSIS/Include
+
+CFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) -O2 -Wall -fdata-sections -ffunction-sections -fno-math-errno
+ASFLAGS = $(MCU) $(C_DEFS) $(C_INCLUDES) -O2 -Wall
+
+# Linker Flags (UPDATE THIS PATH IF YOUR .ld FILE IS ELSEWHERE)
+LDSCRIPT = STM32CubeG4/Projects/NUCLEO-G431KB/Templates/STM32CubeIDE/STM32G431KBTX_FLASH.ld
+LIBS = -lc -lm -lnosys
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+
+# Source Files (User Code + HAL Drivers + System)
+C_SOURCES = \
+Src/main.c \
+Src/foc_core.c \
+Src/foc_dshot.c \
+STM32CubeG4/Projects/NUCLEO-G431KB/Templates/Src/system_stm32g4xx.c \
+$(wildcard STM32CubeG4/Drivers/STM32G4xx_HAL_Driver/Src/*.c)
+
+ASM_SOURCES = STM32CubeG4/Projects/NUCLEO-G431KB/Templates/STM32CubeIDE/Example/Startup/startup_stm32g431kbtx.s
+
+# Objects
+OBJECTS = $(addprefix $(BUILD_DIR)/,$(notdir $(C_SOURCES:.c=.o)))
+vpath %.c $(sort $(dir $(C_SOURCES)))
+OBJECTS += $(addprefix $(BUILD_DIR)/,$(notdir $(ASM_SOURCES:.s=.o)))
+vpath %.s $(sort $(dir $(ASM_SOURCES)))
+
+# Build Rules
+all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).bin
+
+$(BUILD_DIR)/%.o: %.c Makefile | $(BUILD_DIR)
+	$(CC) -c $(CFLAGS) -Wa,-a,-ad,-alms=$(BUILD_DIR)/$(notdir $(<:.c=.lst)) $< -o $@
+
+$(BUILD_DIR)/%.o: %.s Makefile | $(BUILD_DIR)
+	$(AS) -c $(ASFLAGS) $< -o $@
+
+$(BUILD_DIR)/$(TARGET).elf: $(OBJECTS) Makefile
+	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(SZ) $@
+
+$(BUILD_DIR)/%.bin: $(BUILD_DIR)/%.elf | $(BUILD_DIR)
+	$(CP) -O binary -S $< $@
+
+$(BUILD_DIR):
+	mkdir -p $@
+
+clean:
+	rm -rf $(BUILD_DIR)

@@ -1,0 +1,991 @@
+{
+  "components": {
+    "C24": {
+      "type": "capacitor",
+      "farads": 1e-09,
+      "raw_value": "1nF",
+      "nets": [
+        "Net-(U4-IN+)",
+        "GND"
+      ]
+    },
+    "U4": {
+      "type": "opamp",
+      "raw_value": "AD8418",
+      "nets": [
+        "Net-(U4-IN+)",
+        "GND",
+        "3V3",
+        "/current sensing/1.65V",
+        "Net-(U4-IN-)",
+        "unconnected-(U4-NC-Pad4)",
+        "ADC2"
+      ]
+    },
+    "R18": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(U4-IN+)",
+        "/current sensing/W"
+      ]
+    },
+    "C29": {
+      "type": "capacitor",
+      "farads": 1e-08,
+      "raw_value": "10nF",
+      "nets": [
+        "Net-(U4-IN+)",
+        "Net-(U4-IN-)"
+      ]
+    },
+    "TP12": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "GND"
+      ]
+    },
+    "C8": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C31": {
+      "type": "capacitor",
+      "farads": 9.999999999999999e-06,
+      "raw_value": "10u",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "C34": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C25": {
+      "type": "capacitor",
+      "farads": 1.0000000000000001e-07,
+      "raw_value": "100nF",
+      "nets": [
+        "GND",
+        "/current sensing/1.65V"
+      ]
+    },
+    "TP17": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "GND"
+      ]
+    },
+    "C3": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "Q4": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "GND",
+        "/current sensing/U",
+        "Net-(Q4-G)"
+      ]
+    },
+    "Q12": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "GND",
+        "/current sensing/W",
+        "Net-(Q12-G)"
+      ]
+    },
+    "U3": {
+      "type": "buck",
+      "vout": 5.0,
+      "raw_value": "XL1509-5.0",
+      "nets": [
+        "GND",
+        "+BATT",
+        "Net-(D17-K)",
+        "5V"
+      ]
+    },
+    "C2": {
+      "type": "capacitor",
+      "farads": 9.999999999999999e-06,
+      "raw_value": "10u",
+      "nets": [
+        "GND",
+        "5V"
+      ]
+    },
+    "C16": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "Net-(U2-VDDA)"
+      ]
+    },
+    "D17": {
+      "type": "unknown",
+      "raw_value": "SS34",
+      "nets": [
+        "GND",
+        "Net-(D17-K)"
+      ]
+    },
+    "U9": {
+      "type": "ldo",
+      "vout": 3.3,
+      "raw_value": "ME6211C33M5",
+      "nets": [
+        "GND",
+        "5V",
+        "3V3",
+        "unconnected-(U9-NC-Pad4)"
+      ]
+    },
+    "U2": {
+      "type": "mcu",
+      "raw_value": "STM32G431CBTx",
+      "nets": [
+        "GND",
+        "SDA",
+        "3V3",
+        "SCL",
+        "SWCLK",
+        "ADC3",
+        "DSHOT",
+        "Net-(U2-VDDA)",
+        "unconnected-(U2-PC13-Pad2)",
+        "unconnected-(U2-PC14-Pad3)",
+        "unconnected-(U2-PC15-Pad4)",
+        "unconnected-(U2-PF0-Pad5)",
+        "unconnected-(U2-PF1-Pad6)",
+        "Net-(U2-PG10)",
+        "Net-(U2-PA1)",
+        "unconnected-(U2-PA2-Pad10)",
+        "unconnected-(U2-PA3-Pad11)",
+        "unconnected-(U2-PA4-Pad12)",
+        "unconnected-(U2-PA5-Pad13)",
+        "unconnected-(U2-PA6-Pad14)",
+        "Net-(U2-PA7)",
+        "unconnected-(U2-PB0-Pad16)",
+        "unconnected-(U2-PB1-Pad17)",
+        "unconnected-(U2-PB2-Pad18)",
+        "unconnected-(U2-PB10-Pad22)",
+        "unconnected-(U2-PB11-Pad25)",
+        "UL",
+        "VL",
+        "WL",
+        "UH",
+        "VH",
+        "WH",
+        "unconnected-(U2-PA11-Pad33)",
+        "unconnected-(U2-PA12-Pad34)",
+        "SWDIO",
+        "unconnected-(U2-PA15-Pad39)",
+        "unconnected-(U2-PB3-Pad40)",
+        "unconnected-(U2-PB4-Pad41)",
+        "unconnected-(U2-PB5-Pad42)",
+        "Net-(U2-PB8)",
+        "unconnected-(U2-PB9-Pad46)"
+      ]
+    },
+    "C1": {
+      "type": "capacitor",
+      "farads": 1.0000000000000001e-07,
+      "raw_value": "100nF",
+      "nets": [
+        "GND",
+        "ADC3"
+      ]
+    },
+    "C17": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "C5": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C26": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "C19": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "C28": {
+      "type": "capacitor",
+      "farads": 1.0000000000000001e-07,
+      "raw_value": "100nF",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "C35": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "Net-(U2-PG10)"
+      ]
+    },
+    "TP5": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "GND"
+      ]
+    },
+    "C15": {
+      "type": "capacitor",
+      "farads": 9.999999999999999e-05,
+      "raw_value": "100u",
+      "nets": [
+        "GND",
+        "5V"
+      ]
+    },
+    "TP13": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "GND"
+      ]
+    },
+    "Q8": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "GND",
+        "/current sensing/Tv",
+        "Net-(Q8-G)"
+      ]
+    },
+    "C33": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C30": {
+      "type": "capacitor",
+      "farads": 1e-09,
+      "raw_value": "1nF",
+      "nets": [
+        "GND",
+        "Net-(U4-IN-)"
+      ]
+    },
+    "R21": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "Net-(U2-PB8)"
+      ]
+    },
+    "C27": {
+      "type": "capacitor",
+      "farads": 1e-06,
+      "raw_value": "1u",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "TP15": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "GND"
+      ]
+    },
+    "U8": {
+      "type": "gate_driver",
+      "raw_value": "EG2134",
+      "nets": [
+        "GND",
+        "/current sensing/U",
+        "/current sensing/Tv",
+        "/current sensing/W",
+        "UL",
+        "VL",
+        "WL",
+        "UH",
+        "VH",
+        "WH",
+        "12V",
+        "LO3",
+        "LO2",
+        "LO1",
+        "HO3",
+        "Net-(D7-K)",
+        "HO2",
+        "Net-(D6-K)",
+        "HO1",
+        "Net-(D5-K)"
+      ]
+    },
+    "C23": {
+      "type": "capacitor",
+      "farads": 1e-09,
+      "raw_value": "1nF",
+      "nets": [
+        "GND",
+        "Net-(U1-IN-)"
+      ]
+    },
+    "C32": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C14": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C7": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C37": {
+      "type": "capacitor",
+      "farads": 2.2000000000000003e-09,
+      "raw_value": "2.2n",
+      "nets": [
+        "GND",
+        "Net-(U2-PA7)"
+      ]
+    },
+    "R25": {
+      "type": "resistor",
+      "ohms": 1000.0,
+      "raw_value": "1k",
+      "nets": [
+        "GND",
+        "ADC3"
+      ]
+    },
+    "C20": {
+      "type": "capacitor",
+      "farads": 1.0000000000000001e-07,
+      "raw_value": "100nF",
+      "nets": [
+        "GND",
+        "/current sensing/1.65V"
+      ]
+    },
+    "R6": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "GND",
+        "Net-(U6A-+)"
+      ]
+    },
+    "U5": {
+      "type": "buck",
+      "vout": 12.0,
+      "raw_value": "XL1509-12",
+      "nets": [
+        "GND",
+        "+BATT",
+        "12V",
+        "Net-(D1-K)"
+      ]
+    },
+    "Q10": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "GND",
+        "/current sensing/W",
+        "Net-(Q10-G)"
+      ]
+    },
+    "Q2": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "GND",
+        "/current sensing/U",
+        "Net-(Q2-G)"
+      ]
+    },
+    "U6": {
+      "type": "unknown",
+      "raw_value": "OPA2333xxD",
+      "nets": [
+        "GND",
+        "3V3",
+        "/current sensing/1.65V",
+        "Net-(U6A-+)"
+      ]
+    },
+    "C9": {
+      "type": "capacitor",
+      "farads": 2.2e-05,
+      "raw_value": "22u",
+      "nets": [
+        "GND",
+        "+BATT"
+      ]
+    },
+    "C10": {
+      "type": "capacitor",
+      "farads": 9.999999999999999e-05,
+      "raw_value": "100u",
+      "nets": [
+        "GND",
+        "12V"
+      ]
+    },
+    "C36": {
+      "type": "capacitor",
+      "farads": 2.2000000000000003e-09,
+      "raw_value": "2.2n",
+      "nets": [
+        "GND",
+        "Net-(U2-PA1)"
+      ]
+    },
+    "C21": {
+      "type": "capacitor",
+      "farads": 1.0000000000000001e-07,
+      "raw_value": "100nF",
+      "nets": [
+        "GND",
+        "3V3"
+      ]
+    },
+    "D1": {
+      "type": "unknown",
+      "raw_value": "SS34",
+      "nets": [
+        "GND",
+        "Net-(D1-K)"
+      ]
+    },
+    "C4": {
+      "type": "capacitor",
+      "farads": 1e-07,
+      "raw_value": "0.1u",
+      "nets": [
+        "GND",
+        "12V"
+      ]
+    },
+    "Q6": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "GND",
+        "/current sensing/Tv",
+        "Net-(Q6-G)"
+      ]
+    },
+    "C18": {
+      "type": "capacitor",
+      "farads": 1e-09,
+      "raw_value": "1nF",
+      "nets": [
+        "GND",
+        "Net-(U1-IN+)"
+      ]
+    },
+    "U1": {
+      "type": "opamp",
+      "raw_value": "AD8418",
+      "nets": [
+        "GND",
+        "3V3",
+        "/current sensing/1.65V",
+        "Net-(U1-IN-)",
+        "Net-(U1-IN+)",
+        "ADC1",
+        "unconnected-(U1-NC-Pad4)"
+      ]
+    },
+    "Q3": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "Net-(Q3-G)",
+        "+BATT",
+        "/current sensing/U"
+      ]
+    },
+    "R2": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(Q3-G)",
+        "HO1"
+      ]
+    },
+    "TP4": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "+BATT"
+      ]
+    },
+    "Q7": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "+BATT",
+        "/current sensing/Tv",
+        "Net-(Q7-G)"
+      ]
+    },
+    "Q11": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "+BATT",
+        "/current sensing/W",
+        "Net-(Q11-G)"
+      ]
+    },
+    "R24": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "+BATT",
+        "ADC3"
+      ]
+    },
+    "Q1": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "+BATT",
+        "/current sensing/U",
+        "Net-(Q1-G)"
+      ]
+    },
+    "TP16": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "+BATT"
+      ]
+    },
+    "Q9": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "+BATT",
+        "/current sensing/W",
+        "Net-(Q9-G)"
+      ]
+    },
+    "TP18": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "+BATT"
+      ]
+    },
+    "Q5": {
+      "type": "unknown",
+      "raw_value": "QM6006D",
+      "nets": [
+        "+BATT",
+        "/current sensing/Tv",
+        "Net-(Q5-G)"
+      ]
+    },
+    "R14": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "/current sensing/U",
+        "Net-(U1-IN+)"
+      ]
+    },
+    "C6": {
+      "type": "capacitor",
+      "farads": 1e-06,
+      "raw_value": "1u",
+      "nets": [
+        "/current sensing/U",
+        "Net-(D5-K)"
+      ]
+    },
+    "R22": {
+      "type": "unknown",
+      "raw_value": "R",
+      "nets": [
+        "/current sensing/U",
+        "/current sensing/Tu"
+      ]
+    },
+    "TP3": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "/current sensing/Tv"
+      ]
+    },
+    "C11": {
+      "type": "capacitor",
+      "farads": 1e-06,
+      "raw_value": "1u",
+      "nets": [
+        "/current sensing/Tv",
+        "Net-(D6-K)"
+      ]
+    },
+    "L2": {
+      "type": "unknown",
+      "raw_value": "68u",
+      "nets": [
+        "Net-(D17-K)",
+        "5V"
+      ]
+    },
+    "TP11": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "5V"
+      ]
+    },
+    "TP9": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "SDA"
+      ]
+    },
+    "FB1": {
+      "type": "unknown",
+      "raw_value": "FerriteBead_Small",
+      "nets": [
+        "3V3",
+        "Net-(U2-VDDA)"
+      ]
+    },
+    "TP14": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "3V3"
+      ]
+    },
+    "R5": {
+      "type": "resistor",
+      "ohms": 10000.0,
+      "raw_value": "10k",
+      "nets": [
+        "3V3",
+        "Net-(U6A-+)"
+      ]
+    },
+    "R8": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(Q7-G)",
+        "HO2"
+      ]
+    },
+    "R23": {
+      "type": "unknown",
+      "raw_value": "R",
+      "nets": [
+        "/current sensing/W",
+        "/current sensing/Tw"
+      ]
+    },
+    "C12": {
+      "type": "capacitor",
+      "farads": 1e-06,
+      "raw_value": "1u",
+      "nets": [
+        "/current sensing/W",
+        "Net-(D7-K)"
+      ]
+    },
+    "TP2": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "/current sensing/Tw"
+      ]
+    },
+    "R20": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "/current sensing/Tw",
+        "Net-(U4-IN-)"
+      ]
+    },
+    "TP8": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "SCL"
+      ]
+    },
+    "TP6": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "SWCLK"
+      ]
+    },
+    "R12": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(Q11-G)",
+        "HO3"
+      ]
+    },
+    "R4": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(Q4-G)",
+        "LO1"
+      ]
+    },
+    "TP1": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "/current sensing/Tu"
+      ]
+    },
+    "R17": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "/current sensing/Tu",
+        "Net-(U1-IN-)"
+      ]
+    },
+    "R15": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(Q12-G)",
+        "LO3"
+      ]
+    },
+    "R19": {
+      "type": "resistor",
+      "ohms": 100.0,
+      "raw_value": "100",
+      "nets": [
+        "ADC2",
+        "Net-(U2-PA7)"
+      ]
+    },
+    "TP10": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "DSHOT"
+      ]
+    },
+    "R16": {
+      "type": "resistor",
+      "ohms": 100.0,
+      "raw_value": "100",
+      "nets": [
+        "Net-(U2-PA1)",
+        "ADC1"
+      ]
+    },
+    "TP7": {
+      "type": "unknown",
+      "raw_value": "TestPoint",
+      "nets": [
+        "SWDIO"
+      ]
+    },
+    "C22": {
+      "type": "capacitor",
+      "farads": 1e-08,
+      "raw_value": "10nF",
+      "nets": [
+        "Net-(U1-IN-)",
+        "Net-(U1-IN+)"
+      ]
+    },
+    "R10": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "Net-(Q8-G)",
+        "LO2"
+      ]
+    },
+    "L1": {
+      "type": "unknown",
+      "raw_value": "68u",
+      "nets": [
+        "12V",
+        "Net-(D1-K)"
+      ]
+    },
+    "D6": {
+      "type": "unknown",
+      "raw_value": "SS34",
+      "nets": [
+        "12V",
+        "Net-(D6-K)"
+      ]
+    },
+    "D7": {
+      "type": "unknown",
+      "raw_value": "SS34",
+      "nets": [
+        "12V",
+        "Net-(D7-K)"
+      ]
+    },
+    "D5": {
+      "type": "unknown",
+      "raw_value": "SS34",
+      "nets": [
+        "12V",
+        "Net-(D5-K)"
+      ]
+    },
+    "R13": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "LO3",
+        "Net-(Q10-G)"
+      ]
+    },
+    "R9": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "LO2",
+        "Net-(Q6-G)"
+      ]
+    },
+    "R3": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "LO1",
+        "Net-(Q2-G)"
+      ]
+    },
+    "R11": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "HO3",
+        "Net-(Q9-G)"
+      ]
+    },
+    "R7": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "HO2",
+        "Net-(Q5-G)"
+      ]
+    },
+    "R1": {
+      "type": "resistor",
+      "ohms": 10.0,
+      "raw_value": "10",
+      "nets": [
+        "HO1",
+        "Net-(Q1-G)"
+      ]
+    }
+  }
+}

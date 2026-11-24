@@ -1,0 +1,25 @@
+* ============================================================
+*  foc_models.lib — FOC ESC component subcircuits
+*  Port order is defined HERE, not by KiCad pin numbers.
+* ============================================================
+
+* --- AOD4184A: N-ch 40V/50A, Rds(on)=6.7mΩ @ Vgs=10V
+.SUBCKT AOD4184A D G S
+S_ch D S G S AOD4184A_SW
+.model AOD4184A_SW SW(Ron=6.7m Roff=100Meg Vt=2.0 Vh=0.5)
+.ENDS
+
+* --- SS14: 40V/1A Schottky
+.model SS14 D(Is=3e-5 N=1.04 Rs=0.04 Cj=1e-10 Tt=0)
+
+* --- AD8418A: bidirectional current-sense amp, gain=20
+* Ports: INP INN REF GND VCC OUT
+.SUBCKT AD8418A INP INN REF GND VCC OUT
+B_out OUT GND V = max(0, min(20*(V(INP,GND)-V(INN,GND)) + V(REF,GND), V(VCC,GND)))
+.ENDS
+
+* --- OPA2333: zero-drift op-amp, rail-to-rail
+* Ports: INP INN VCC GND OUT
+.SUBCKT OPA2333 INP INN VCC GND OUT
+B_opa OUT GND V = max(0, min(1e6*(V(INP,GND)-V(INN,GND)), V(VCC,GND)))
+.ENDS
